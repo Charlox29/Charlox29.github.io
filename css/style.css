@@ -413,6 +413,10 @@ body {
     line-height: 1.8;
 }
 
+.timeline-description + .timeline-details {
+    margin-top: var(--spacing-sm);
+}
+
 /* ===========================
    CARDS GRID
    =========================== */
@@ -505,6 +509,11 @@ body {
 
 .achievement-icon {
     font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.achievement-text {
+    flex: 1;
 }
 
 .card-note {
